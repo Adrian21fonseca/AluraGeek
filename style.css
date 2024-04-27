@@ -15,7 +15,7 @@ header{
 .contenedor{
     display: flex;
     justify-content: center;
-    padding: 20px 0;
+    padding: 20px 20px;
 }
 
 .geek{
@@ -110,10 +110,67 @@ input{
 .card{
     background: #5D04D9;
     width: 196px;
-    height: 258px;
+    height: 240px;
     padding: 10px;
     border-radius: 5px;
     border: solid 3px black;
     margin-bottom: 30px;
     margin-top: 30px;
+    text-align: center;
+}
+
+.producto{
+    display: inline-block;
+}
+
+.card p{
+    color: white;
+    font-family: "IBM Plex Mono", monospace;
+}
+
+.nombre_producto{
+    text-align: left;
+    margin-top: 2px;
+    font-weight: 200;
+}
+
+.precio{
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer{
+    background: #5D04D9;
+    margin-top: 30px;
+}
+
+.final{
+    text-align: center;
+    padding: 10px;
+}
+
+.logo{
+    font-size: 25px;
+    font-family: "Press Start 2P", system-ui;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0;
+}
+
+.desarrollado{
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    margin-top: 0px;
+    
+}
+
+.creditos{
+    font-family: "IBM Plex Mono", monospace;
+    color: white;
+    margin-top: 5px;
+    font-weight: 200;
 }
