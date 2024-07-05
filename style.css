@@ -19,7 +19,7 @@ header{
 }
 
 .geek{
-    font-size: 24px;
+    font-size: 20px;
     font-family: "Press Start 2P", system-ui;
     color: white;
     margin: 0;
@@ -36,9 +36,9 @@ header{
 
 h2{
     font-family: "Press Start 2P", system-ui;
-    width: 350px;
+    font-size: 22px;
     text-align: center;
-    margin: 50px auto;
+    margin: 50px auto 20px;
 }
 
 .formulario{
@@ -49,8 +49,9 @@ form{
     display: flex;
     justify-content: center;
     flex-direction: column;
-    width: 350px;
+    width: 300px;
     gap: 40px;
+    margin: auto;
 }
 
 input{
@@ -67,8 +68,9 @@ input{
 }
 
 .botones{
-    width: 350px;
-    gap: 13px;
+    display: flex;
+    width: 300px;
+    gap: 10px;
 
 }
 
@@ -88,12 +90,15 @@ input{
 }
 
 .productos{
-    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 58%;
 }
 
 .seccion1{
     display: flex;
-    gap: 10px;
+    gap: 15px;
     overflow: scroll;
 }
 
@@ -105,6 +110,7 @@ input{
     display: flex;
     gap: 10px;
     overflow: scroll;
+
 }
 
 .card{
@@ -144,15 +150,15 @@ input{
 footer{
     background: #5D04D9;
     margin-top: 30px;
+    padding: 10px;
 }
 
 .final{
     text-align: center;
-    padding: 10px;
 }
 
 .logo{
-    font-size: 25px;
+    font-size: 20px;
     font-family: "Press Start 2P", system-ui;
     color: white;
     display: flex;
@@ -165,11 +171,13 @@ footer{
     font-family: "IBM Plex Mono", monospace;
     color: white;
     margin-top: 0px;
+    font-size: 14px;
     
 }
 
 .creditos{
     font-family: "IBM Plex Mono", monospace;
+    font-size: 14px;
     color: white;
     margin-top: 5px;
     font-weight: 200;
