@@ -192,6 +192,23 @@ footer{
         flex-direction: column;
     }
 
+    h2{
+        font-size: 30px;
+        margin-bottom: 30px;
+    }
+
+    .geek{
+        font-size: 22px;
+    }
+
+    .logo{
+        font-size: 22px;
+    }
+
+    .card{
+        margin-top: 0;
+    }
+
 }
 
 @media (min-width: 1200px){
@@ -210,15 +227,19 @@ footer{
     }
 
     .contenedor2{
-        width: 720px;
+        width: 780px;
         margin: auto 5px;
-        box-shadow: -12px 12px 8px rgba(97, 97, 97, 0.648);
+        box-shadow: -12px 12px 8px #5d04d9;
     }
 
     .seccion2{
         display: flex;
         gap: 10px;
         overflow: scroll;
+    }
+
+    .productos{
+        width: 65%;
     }
 
 }
